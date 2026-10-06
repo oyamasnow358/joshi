@@ -1,0 +1,31 @@
+.jp-page{width:210mm;height:297mm;padding:12mm 13mm 10mm;box-sizing:border-box;background:#fff;color:#111;display:flex;flex-direction:column;font-family:"Klee One","UD デジタル 教科書体 NK-R","UD Digital Kyokasho NK-R","Hiragino Maru Gothic ProN",sans-serif;font-weight:600;position:relative;overflow:hidden;-webkit-print-color-adjust:exact;print-color-adjust:exact;word-break:keep-all;}
+.jp-head{display:flex;justify-content:space-between;align-items:flex-end;gap:4mm;border-bottom:.5mm solid #333;padding-bottom:2mm;}
+.jp-brand{font-size:3mm;color:#888;display:flex;align-items:center;gap:1.5mm;font-family:"Hiragino Maru Gothic ProN",sans-serif;}
+.jp-orb{width:3.4mm;height:3.4mm;border-radius:50%;background:radial-gradient(circle at 50% 0%,#1B8FE8 0%,#2BB8D6 28%,#3FCB9E 45%,#8FD24A 58%,#F4D027 72%,#F7941E 100%);}
+.jp-head h2{font-size:6.2mm;margin:1mm 0;font-weight:600;}
+.jp-ans{color:#C92A2A;border:.4mm solid #C92A2A;border-radius:2mm;padding:0 2mm;margin-left:2mm;font-size:4.4mm;}
+.jp-inst{font-size:4.8mm;}
+.jp-fields{font-size:4.2mm;text-align:right;line-height:2;white-space:nowrap;}
+.jp-blank{display:inline-block;width:46mm;border-bottom:.3mm solid #333;margin-left:2mm;}
+.jp-no{margin-left:3mm;color:#666;}
+.jp-body{flex:1;display:grid;grid-template-rows:repeat(var(--rows),minmax(0,1fr));margin-top:2mm;min-height:0;}
+.jp-row{display:flex;align-items:center;gap:3mm;border-bottom:.3mm dashed #BBB;padding:1.2mm 0;min-height:0;overflow:hidden;}
+.jp-n{width:7mm;height:7mm;border-radius:50%;background:#333;color:#fff;display:grid;place-items:center;font-size:4mm;flex:none;font-family:"Hiragino Maru Gothic ProN",sans-serif;}
+.jp-pic{font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-size:11mm;width:26mm;text-align:center;flex:none;font-weight:400;line-height:1.1;}
+.jp-b{flex:1;min-width:0;}
+.jp-s{font-size:7.4mm;line-height:1.55;}
+.jp-par{letter-spacing:.1em;}
+.jp-box{display:inline-block;width:11mm;height:11mm;border:.5mm solid #333;border-radius:1.5mm;vertical-align:middle;margin:0 1mm;}
+.jp-fill{color:#C92A2A;border-bottom:.5mm solid #C92A2A;padding:0 1mm;}
+.jp-ch{font-size:6.4mm;margin-top:.5mm;}
+.jp-ch span{display:inline-block;padding:0 1.6mm;}
+.jp-c{outline:.6mm solid #E03131;border-radius:4mm;outline-offset:.4mm;color:#C92A2A;}
+.jp-list{display:grid;gap:.8mm;font-size:5.6mm;}
+.jp-li{padding:.4mm 2mm;}
+.jp-cards{display:flex;flex-wrap:wrap;gap:2.5mm;}
+.jp-card{border:.5mm solid #333;border-radius:2mm;padding:1mm 3mm 0;font-size:6.2mm;text-align:center;min-width:14mm;}
+.jp-card.p{background:#F1F3F5;}
+.jp-num{margin-top:1mm;border-top:.4mm dashed #999;min-height:7mm;font-size:5mm;color:#C92A2A;}
+.jp-hl{color:#E03131;text-decoration:underline;text-underline-offset:1mm;}
+.jp-foot{position:absolute;bottom:4mm;right:13mm;font-size:3mm;color:#999;font-family:"Hiragino Maru Gothic ProN",sans-serif;}
+.jp-page.big .jp-s{font-size:9.5mm;} .jp-page.big .jp-pic{font-size:16mm;width:32mm;} .jp-page.big .jp-ch{font-size:8mm;} .jp-page.big .jp-list{font-size:7mm;} .jp-page.big .jp-card{font-size:8mm;}
