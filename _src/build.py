@@ -2,7 +2,7 @@
 import io
 D=r'C:\Users\taka\OneDrive\デスクトップ\開発・アプリ開発'
 s=io.open('_src/src.html',encoding='utf-8').read()
-fx=io.open(r'C:\Users\taka\AppData\Local\Temp\claude\C--Users-taka-OneDrive-------\b6917604-d75f-4a8a-9571-b1d064f4449c\scratchpad\fx.js',encoding='utf-8').read()
+fx=io.open('_src/fx.js',encoding='utf-8').read()
 na=io.open(D+r'\なかまわけ\index.html',encoding='utf-8').read()
 i=na.index('function jaSay'); j=na.index('\n}\n',i)+3
 jasay=na[i:j]
